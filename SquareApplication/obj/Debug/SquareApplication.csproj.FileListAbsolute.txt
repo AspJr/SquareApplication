@@ -1,0 +1,10 @@
+E:\NET\Applications\SquareApplication\SquareApplication\obj\Debug\SquareApplication.csproj.AssemblyReference.cache
+E:\NET\Applications\SquareApplication\SquareApplication\obj\Debug\SquareApplication.Form1.resources
+E:\NET\Applications\SquareApplication\SquareApplication\obj\Debug\SquareApplication.Properties.Resources.resources
+E:\NET\Applications\SquareApplication\SquareApplication\obj\Debug\SquareApplication.csproj.GenerateResource.cache
+E:\NET\Applications\SquareApplication\SquareApplication\obj\Debug\SquareApplication.csproj.CoreCompileInputs.cache
+E:\NET\Applications\SquareApplication\SquareApplication\bin\Debug\SquareApplication.exe.config
+E:\NET\Applications\SquareApplication\SquareApplication\bin\Debug\SquareApplication.exe
+E:\NET\Applications\SquareApplication\SquareApplication\bin\Debug\SquareApplication.pdb
+E:\NET\Applications\SquareApplication\SquareApplication\obj\Debug\SquareApplication.exe
+E:\NET\Applications\SquareApplication\SquareApplication\obj\Debug\SquareApplication.pdb
