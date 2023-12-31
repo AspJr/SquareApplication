@@ -33,10 +33,10 @@ namespace SquareApplication
             //Pointing to API
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("https://localhost:44313/");
-            HttpResponseMessage response = client.GetAsync("api/Test").Result;
+            HttpResponseMessage response = client.GetAsync("api/Test?color=yellow").Result;
             if (response.IsSuccessStatusCode)
             {
-                panelBox.BackColor = Color.Yellow;
+                //panelBox.BackColor = Color.Yellow;
                 var result = response.Content.ReadAsStringAsync();
                 var str = result.Result;
                 if (str != "")
