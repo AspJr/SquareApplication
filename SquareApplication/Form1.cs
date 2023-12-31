@@ -38,10 +38,10 @@ namespace SquareApplication
             {
                 panelBox.BackColor = Color.Yellow;
                 var result = response.Content.ReadAsStringAsync();
-                //var str = result.Result.Trim('"');
                 var str = result.Result;
-                if (str != "") {
-                    MessageBox.Show(str);
+                if (str != "")
+                {
+                    panelBox.BackColor = Color.FromName(str); ;
                 }
             }
         }

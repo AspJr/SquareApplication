@@ -10,9 +10,9 @@ namespace API.Controllers
     public class TestController : ApiController
     {
         // GET api/values
-        public IHttpActionResult Get()
-        {
-            return Ok("Success to get response from API!");
+        public IHttpActionResult Get(string color)
+        { 
+            return Ok(color);
         }
     }
 }
