@@ -27,21 +27,18 @@ namespace SquareApplication
         {
         }
 
-        //Trigger change color by calling API
         private void btnTrigger_Click(object sender, EventArgs e)
         {
-            //Pointing to API
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("https://localhost:44313/");
-            HttpResponseMessage response = client.GetAsync("api/Test?color=yellow").Result;
+            HttpResponseMessage response = client.GetAsync("api/Test?color=black").Result;
             if (response.IsSuccessStatusCode)
             {
-                //panelBox.BackColor = Color.Yellow;
                 var result = response.Content.ReadAsStringAsync();
                 var str = result.Result;
                 if (str != "")
                 {
-                    panelBox.BackColor = Color.FromName(str); ;
+                    panelBox.BackColor = Color.FromName(str); 
                 }
             }
         }
